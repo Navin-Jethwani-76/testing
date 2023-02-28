@@ -20,9 +20,9 @@ class MoleculeEditor {
       <option value="eraser">Eraser</option>
       </select>
     </div>
-    </div>;
+    </div>
   `;
-    document.appendChild(newDiv);
+    document.innerHTML += newDiv;
   }
 }
 // let editor1 = new MoleculeEditor(600,400);

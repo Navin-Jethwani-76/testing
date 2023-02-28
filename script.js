@@ -1,7 +1,9 @@
 for (let i=1;i<=editorCount;i++){
     const threshold = 10;
-
-    const newBoard = document.getElementById(`board-${editorCount}`);
+    let boardID = `board-${i}`;
+    console.log(boardID)
+    const newBoard = document.getElementById(boardID);
+    console.log(newBoard)
     const board = newBoard.querySelector("svg");
     const boardText = newBoard.getElementById("text");
     const mode = newBoard.getElementById("mode-select");
