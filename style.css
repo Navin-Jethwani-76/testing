@@ -1,0 +1,32 @@
+body{
+  display: block;
+}
+.svg-wrap > span{
+  position: absolute;
+  left: 25%;
+  width: 50%;
+  top: 50%;
+  font-family: Verdana;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(121, 121, 121);
+  text-align: center;
+  transform: translate(0px, -50%);
+}
+.svg-wrap > span{
+  user-select: none;
+}
+svg{
+  top: 0;
+  left: 0;
+  border: 1px solid black;
+}
+svg > line{
+  stroke:rgb(0,0,0);
+  stroke-width:4;
+  stroke-linecap: round;
+}
+.highlight{
+  stroke: red;
+}
