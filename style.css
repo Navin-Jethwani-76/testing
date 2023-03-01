@@ -3,7 +3,7 @@ body{
 }
 svg{
   width: 600px;
-  height:400px
+  height:400px;
 }
 .svg-wrap > span{
   position: absolute;
