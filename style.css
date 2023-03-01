@@ -1,6 +1,10 @@
 body{
   display: block;
 }
+svg{
+  width: 600px;
+  height:400px
+}
 .svg-wrap > span{
   position: absolute;
   left: 25%;
