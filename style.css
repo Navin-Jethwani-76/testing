@@ -1,7 +1,7 @@
 body{
   display: block;
 }
-svg{
+#board{
   width: 600px;
   height:400px;
 }
